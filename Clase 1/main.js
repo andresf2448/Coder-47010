@@ -49,5 +49,5 @@ bloque
 // console.log(typeof numero);
 // console.log(typeof nombre);
 
-let numero = Number(prompt("Ingrese un numero"));
+let numero = parseInt(prompt("Ingrese un numero"));
 alert(numero + 5);
