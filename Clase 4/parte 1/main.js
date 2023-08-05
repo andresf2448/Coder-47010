@@ -106,6 +106,7 @@ estructura de un arreglo
 //   console.log(producto);
 // }
 
+//creamos la clase constructora de los productos
 class Producto {
   constructor(nombre, precio) {
     this.nombre = nombre;
@@ -118,18 +119,23 @@ class Producto {
   }
 }
 
+//arregloq ue va a contener los productos creados
 const productos = [];
 
+//agregamos los productos creados por la clase Producto al arreglo
 productos.push(new Producto("camisa", 1000));
 productos.push(new Producto("zapato", 750));
 productos.push(new Producto("gorra", 720));
 productos.push(new Producto("media", 10));
 
+//pedimos el nombre del producto a consultar
 let nombre = prompt("Ingrese el nombre del productoa  consultar");
 
 while (nombre != "ESC") {
+  //declaramos la variable que contendrá el producto en caso de encontrarlo
   let producto;
 
+  //recorremos el arreglo verificando si alguno de los productos cumple con el nombre
   for (const item of productos) {
     if (item.nombre === nombre) {
       producto = item;
