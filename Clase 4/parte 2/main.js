@@ -149,22 +149,24 @@
 // console.log(numeros.sort((a, b) => a - b));
 // console.log(numeros.sort((a, b) => b - a));
 
-const items = [
-  { name: "Pikachu", price: 21 },
-  { name: "Charmander", price: 37 },
-  { name: "Pidgey", price: 45 },
-  { name: "Squirtle", price: 60 },
-];
+// const items = [
+//   { name: "Pikachu", price: 21 },
+//   { name: "Charmander", price: 37 },
+//   { name: "Pidgey", price: 45 },
+//   { name: "Squirtle", price: 60 },
+// ];
 
-console.log(
-  items.sort((a, b) => {
-    if (a.name > b.name) {
-      return 1;
-    }
-    if (a.name < b.name) {
-      return -1;
-    }
-    // a es igual a b
-    return 0;
-  })
-);
+// console.log(
+//   items.sort((a, b) => {
+//     if (a.name > b.name) {
+//       return 1;
+//     }
+//     if (a.name < b.name) {
+//       return -1;
+//     }
+//     // a es igual a b
+//     return 0;
+//   })
+// );
+
+// forEach, find, filter, map
