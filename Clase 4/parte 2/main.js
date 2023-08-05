@@ -170,3 +170,51 @@
 // );
 
 // forEach, find, filter, map
+
+//MATH
+// console.log(Math.E);
+// console.log(Math.PI);
+// console.log(Math.max(3, 5, 7, 9, 9, 544, 333));
+// console.log(Math.min(3, 5, 7, 9, 9, 544, 333));
+// console.log(Math.max(3, 5, 7, 9, Infinity, 9, 544, 333));
+// console.log(Math.min(3, 5, 7, -Infinity, 9, 9, 544, 333));
+// console.log(Math.ceil(3.14));
+// console.log(Math.floor(3.75));
+// console.log(Math.round(3.75));
+// console.log(Math.round(3.15));
+// console.log(Math.sqrt(9));
+// console.log(Math.sqrt(-1));
+
+// console.log(Math.random());
+// console.log(Math.random());
+// console.log(Math.random());
+// console.log(Math.random());
+// console.log(Math.round(Math.random() * 10));
+// console.log(Math.round(Math.random() * 10));
+// console.log(Math.round(Math.random() * 10));
+// console.log(Math.round(Math.random() * 10));
+
+//Date
+// console.log(Date());
+// console.log(new Date(2023, 7, 5));
+// console.log(new Date("August 5, 2023"));
+
+// let hoy = new Date("August 5, 2023");
+
+// console.log(hoy.toDateString());
+// console.log(hoy.toLocaleString());
+// console.log(hoy.toLocaleDateString());
+// console.log(hoy.toTimeString());
+
+// console.log(hoy.getFullYear());
+// console.log(hoy.getMonth());
+// console.log(hoy.getDay());
+
+const navidad = new Date("December 24, 2023");
+const hoy = new Date("August 5, 2023");
+
+console.log(navidad - hoy);
+
+const milisegundosPorDia = 86400000;
+
+console.log((navidad - hoy) / milisegundosPorDia);
