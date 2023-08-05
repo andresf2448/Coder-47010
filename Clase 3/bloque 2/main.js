@@ -152,7 +152,11 @@ class Producto {
   }
 
   vender() {
-    this.cantidad -= 1; // this.cantidad = this.cantidad - 1
+    if (this.cantidad === 0) {
+      console.log("No quedan productos");
+    } else {
+      this.cantidad -= 1;
+    }
   }
 }
 
@@ -163,7 +167,9 @@ const producto1 = new Producto(
   5
 );
 
-console.log(producto1);
+producto1.vender();
+producto1.vender();
+producto1.vender();
 producto1.vender();
 producto1.vender();
 producto1.vender();
