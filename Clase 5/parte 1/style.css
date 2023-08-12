@@ -1,0 +1,16 @@
+.rojo {
+  background-color: red;
+  display: flex;
+}
+
+.azul {
+  background-color: blue;
+}
+
+.verde {
+  background-color: green;
+}
+
+.amarillo {
+  background-color: yellow;
+}
