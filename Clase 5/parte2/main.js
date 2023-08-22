@@ -89,14 +89,14 @@ let saludo = document.getElementById("saludo");
 //   }
 // });
 
-let formulario = document.getElementById("formulario");
+// let formulario = document.getElementById("formulario");
 
-formulario.addEventListener("submit", (e) => {
-  e.preventDefault();
+// formulario.addEventListener("submit", (e) => {
+//   e.preventDefault();
 
-  let inputs = e.target.children;
+//   let inputs = e.target.children;
 
-  if (!inputs[0].value.includes("@")) {
-    inputs[0].value = "";
-  }
-});
+//   if (!inputs[0].value.includes("@")) {
+//     inputs[0].value = "";
+//   }
+// });
