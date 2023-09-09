@@ -38,20 +38,20 @@ new Promise((resolve, reject) => {
 
 // getCharacters();
 //name, status, gender, image
-class Producto{
-  constructor(nombre, ...)
-}
+// class Producto{
+//   constructor(nombre, ...)
+// }
 
-const productos = [];
+// const productos = [];
 
-const traerData = async () => {
-  const response = await fetch("./data.json");
-  const data = await response.json();
+// const traerData = async () => {
+//   const response = await fetch("./data.json");
+//   const data = await response.json();
 
-  data.forEach(item => {
-    productos.push(new Producto(item.nombre, ...))
-  });
-  //renderizamos la información
-};
+//   data.forEach(item => {
+//     productos.push(new Producto(item.nombre, ...))
+//   });
+//   //renderizamos la información
+// };
 
-traerData();
+// traerData();
